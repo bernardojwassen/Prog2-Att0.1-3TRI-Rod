@@ -1,0 +1,24 @@
+A. Histórico do navegador
+Estrutura: Pilha
+
+Justificativa: Funciona com o conceito de último a entrar, primeiro a sair (LIFO). Ao clicar em "Voltar", navegamos para a página acessada mais recentemente.
+
+B. Pessoas aguardando atendimento
+Estrutura: Fila
+
+Justificativa: Regida pelo princípio de primeiro a entrar, primeiro a sair (FIFO), garantindo a ordem cronológica de chegada para atendimento justo.
+
+C. Catálogo de produtos
+Estrutura: Lista
+
+Justificativa: Necessita de acesso aleatório, busca, ordenação (por preço, nome, etc.) e inserção/remoção em qualquer posição, capacidades típicas de uma lista genérica.
+
+D. Função “desfazer” (Ctrl+Z) de um editor de texto
+Estrutura: Pilha
+
+Justificativa: Cada alteração é empilhada. O comando "desfazer" sempre reverte a última modificação realizada (mecanismo LIFO).
+
+E. Playlist de músicas que pode ser acessada por posição
+Estrutura: Lista
+
+Justificativa: O requisito de acessar uma música diretamente por sua posição/índice exige uma lista (array), permitindo navegação não sequencial.
